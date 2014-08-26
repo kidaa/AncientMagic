@@ -10,6 +10,7 @@ public class Staff extends Item {
         setMaxDamage(10);
     }
 
+    
     @Override
     public boolean hitEntity(ItemStack itemStack, EntityLivingBase enemy, EntityLivingBase player) {
         itemStack.damageItem(1, player);
